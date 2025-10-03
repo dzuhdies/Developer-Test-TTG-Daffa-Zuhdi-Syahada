@@ -1,6 +1,7 @@
 # TTG Overview Test
 
 Dokumen ini berisi langkah-langkah menjalankan kode **Soal 1, 2, 3, dan 4**.  
+Download semua file untuk menjalankan program
 ---
 
 ## Soal 1 — Form Pendaftaran (HTML/CSS/JS)
@@ -43,7 +44,7 @@ RESTful API untuk manajemen data User menggunakan **Node.js (Express)** dan **My
      );
      ```
 
-2. **Buat file `.env` di folder `soal2-api/`**:
+2. **Buat file `.env` di folder `soal2/`**:
    ```env
    PORT=3000
    DB_HOST=127.0.0.1
@@ -52,10 +53,10 @@ RESTful API untuk manajemen data User menggunakan **Node.js (Express)** dan **My
    DB_PASS=
    DB_NAME=user
 3.**Install & Jalankan API:**
-- cd soal2-api
+- cd soal2
 - npm install
 - npm run dev   # development (nodemon)
-atau
+*atau*
 - npm start     # tanpa nodemon
 
 4.**Uji Endpoint:**
@@ -150,8 +151,6 @@ Kompleksitas algoritma ini sangat tinggi karena harus menguji:
 - Semua permutasi urutan angka.
 - Semua kombinasi operator.
 - Semua kemungkinan pengelompokan (penempatan kurung).
-
-Program ini praktis digunakan untuk **4 hingga 6 angka**. Lebih dari itu, waktu eksekusi bisa menjadi sangat lama.
 
 ### Troubleshooting
 - **Pesan "Tidak ada ekspresi yang memenuhi."**: Ini berarti, dengan aturan yang ada (angka yang diberikan dan operator `+`, `-`, `*`), memang tidak ada kombinasi yang bisa menghasilkan nilai target.
