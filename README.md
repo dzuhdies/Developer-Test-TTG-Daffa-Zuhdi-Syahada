@@ -146,11 +146,6 @@ Program ini mencoba semua kemungkinan untuk mencapai sebuah angka target dengan 
     Tidak ada ekspresi yang memenuhi.
     ```
 
-### Catatan Performa
-Kompleksitas algoritma ini sangat tinggi karena harus menguji:
-- Semua permutasi urutan angka.
-- Semua kombinasi operator.
-- Semua kemungkinan pengelompokan (penempatan kurung).
 
 ### Troubleshooting
 - **Pesan "Tidak ada ekspresi yang memenuhi."**: Ini berarti, dengan aturan yang ada (angka yang diberikan dan operator `+`, `-`, `*`), memang tidak ada kombinasi yang bisa menghasilkan nilai target.
