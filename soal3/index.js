@@ -15,7 +15,6 @@ function findMissingNumber(arr) {
 }
 
 rl.question("Masukkan array (pisahkan dengan koma): ", (input) => {
-  // ubah input string jadi array angka
   let arr = input.split(",").map(num => parseInt(num.trim()));
 
   let missing = findMissingNumber(arr);
