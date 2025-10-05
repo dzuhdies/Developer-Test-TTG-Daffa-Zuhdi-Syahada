@@ -34,7 +34,7 @@ RESTful API untuk manajemen data User menggunakan **Node.js (Express)** dan **My
    - Jalankan SQL:
      ```sql
      CREATE DATABASE IF NOT EXISTS user CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-     USE soal2;
+     USE user;
 
      CREATE TABLE IF NOT EXISTS users (
        id INT AUTO_INCREMENT PRIMARY KEY,
@@ -61,7 +61,7 @@ RESTful API untuk manajemen data User menggunakan **Node.js (Express)** dan **My
 
 4.**Uji Endpoint:**
 
-- GET http://localhost:3000/ → { "ok": true, "message": "Soal 2 API is running" }
+- GET http://localhost:3000/ → { "ok": true, "message": "API is running" }
 - POST /users – Tambah user { "name": "Nama", "email": "email@example.com" }
 - GET /users – Ambil semua user
 - GET /users/:id – Ambil user berdasarkan ID
